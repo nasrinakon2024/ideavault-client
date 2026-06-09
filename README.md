@@ -1,16 +1,24 @@
-# React + Vite
+IdeaVault
+IdeaVault হলো আইডিয়া ম্যানেজ করার একটি ওয়েব প্ল্যাটফর্ম।
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 মূল ফিচারসমূহ
+Authentication: Firebase দিয়ে লগইন ও সাইনআপ।
 
-Currently, two official plugins are available:
+CRUD Operations: নিজের আইডিয়া তৈরি, পড়া এবং ডিলিট করা।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Private Routes: লগইন ছাড়া আইডিয়া দেখার সুযোগ নেই।
 
-## React Compiler
+Responsive UI: Tailwind CSS ও DaisyUI দিয়ে তৈরি।
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 প্রযুক্তি
+Frontend: React.js, Tailwind CSS.
 
-## Expanding the ESLint configuration
+Backend: Node.js, Express.js, MongoDB.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Auth: Firebase.
+
+⚙️ যেভাবে চালাবেন
+১. রিপোজিটরি ক্লোন করুন।
+২. npm install দিয়ে প্রয়োজনীয় ডিপেন্ডেন্সি ইন্সটল করুন।
+৩. .env ফাইল তৈরি করে প্রয়োজনীয় কি (Keys) সেট করুন।
+৪. npm run dev (client) এবং node index.js (server) দিয়ে রান করুন।

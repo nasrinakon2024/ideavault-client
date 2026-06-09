@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* গুগল ফন্ট ইমপোর্ট */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fafc;
+}
+
+
+.btn:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+}
